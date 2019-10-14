@@ -1,0 +1,91 @@
+.body {
+  background-color: #F0F0F0;
+}
+h1 {
+  color: #000000;
+}
+
+.error{
+	background-color: #F9DEDE;
+    color: #920F07;
+    padding-left: 5px;
+    padding-right: 50%;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.panel{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    width: 30%;
+    padding: 30px;
+    position: fixed;
+    top: 5%;
+    right: 35%;
+}
+
+.search{
+    padding: 16px;
+}
+
+.textField{
+    padding: 4px;
+    border-color: #F0F0F0;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.inputButton{
+    padding: 4px;
+    border-radius: 3px;
+    font-family: "Arial Black";
+    border-width: 1px;
+    font-weight: bold;
+}
+
+.giticon{
+     max-width: 100px;
+     max-height: 200px;
+ }
+
+.infoUser{
+    padding-left: 10px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.repo{
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.repoInfo{
+    text-align: right;
+    align-content: flex-end;
+    padding-left: 18px;
+}
+
+.repoRow{
+   padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.mainhr{
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.hr{
+    width: 100%;
+    border: 0.7px solid #F0F0F0;
+}
+
+.label{
+    font-weight: bold;
+    padding-left: 15px;
+}

@@ -2,10 +2,24 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Hello!</title>
+    <title>Test GitHub Repositories</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
 </head>
-<body>
+<body class="body">
 
-<h1>Hello!</h1>
+<div class="container">
+    <div class="panel">
+        <div class="row search d-flex justify-content-center"><form action="javascript:getUserInfo();javascript:getRepos();">
+            <input class="textField" id="username" type="text" placeholder="Search username...">
+            <input class="inputButton" type="submit" value="Search"></form>
+        </div>
+        <div class="d-flex justify-content-start" id="infoUser"></div>
+        <div class="label" id="labelRepositories"></div>
+        <div class="d-flex flex-column justify-content-center repo" id="repos"></div>
+    </div>
+</div>
+
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
